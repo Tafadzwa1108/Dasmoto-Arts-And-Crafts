@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px groove #b5c71463;
+    height: 653px;
+    overflow-x: hidden;
+}
+
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    /*background-color: yellow;
+    border: 2px solid teal;*/
+    background-image: url(./pattern.jpg);
+    width: 100%;
+}
+
+
+.title {  
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    display: inline-block;
+}
+
+
+
+/*main conent of the webpage*/
+.flexbox {
+    /*background-color: gold;*/
+    border: 2px solid orange;
+    border-width: 05px;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+
+
+.description{
+    display: inline-block;
+    max-width: 300px;
+    margin-top: -10px;
+}
+
+
+.name, .description {
+    font-size: 1.3rem ;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+
+/*footer of the webpage*/
+footer {
+    border: 2px solid orange;
+    background-color:rgba(133, 98, 4, 0.664) ;
+    border-width: 5px;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    font-size: 1.2em;
+}
+
+
+.founder {
+    display: inline-block;
+    width: 25%;
+}
